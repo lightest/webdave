@@ -1,0 +1,26 @@
+body{
+    font-family: arial;
+    margin: 0;
+    overflow: hidden;
+}
+
+.debug{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: gray;
+    color: white;
+    padding: 10px;
+}
+
+.info, .info label + div {
+    display: inline-block;
+}
+
+.info .game-object-type {
+    cursor: pointer;
+}
+
+.info .game-object-type.selected {
+    background: LightCyan;
+}
