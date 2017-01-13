@@ -3,9 +3,9 @@
 
 **clicking arrow keys** = move selected object in arrow key direction by 1px
 
-**hold shift** + clicking arrow keys = increase the size of selected object in arrow key direction by 1px
+**hold shift + clicking arrow keys** = increase the size of selected object in arrow key direction by 1px
 
-**hold alt** + moving selected object with mouse = copying selecting object
+**hold alt + moving selected object with mouse** = copying selecting object
 
 **ctrl + z** = does `.pop()` on `world.objects` (should be improved to proper ctrl + z for sure)
 
